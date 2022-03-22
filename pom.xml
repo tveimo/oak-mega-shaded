@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.tveimo</groupId>
-    <version>1.40.0</version>
+    <version>1.42.0</version>
     <artifactId>oak-mega-shaded</artifactId>
     <name>Oak Mega (shaded)</name>
     <description>Oak Mega project, shade lucene and guava dependencies</description>
@@ -29,7 +29,7 @@
     <properties>
         <tika.version>1.24.1</tika.version>
         <lucene.version>4.7.1</lucene.version>
-        <oak.version>1.40.0</oak.version>
+        <oak.version>1.42.0</oak.version>
         <guava.version>15.0</guava.version>
     </properties>
 
