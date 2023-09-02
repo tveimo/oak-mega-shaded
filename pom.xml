@@ -21,16 +21,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.tveimo</groupId>
-    <version>1.42.0</version>
+    <version>1.56.0</version>
     <artifactId>oak-mega-shaded</artifactId>
     <name>Oak Mega (shaded)</name>
-    <description>Oak Mega project, shade lucene and guava dependencies</description>
+    <description>Oak Mega project, and shade lucene dependencies</description>
 
     <properties>
-        <tika.version>1.24.1</tika.version>
+        <tika.version>1.28.5</tika.version>
         <lucene.version>4.7.1</lucene.version>
-        <oak.version>1.42.0</oak.version>
-        <guava.version>15.0</guava.version>
+        <oak.version>1.56.0</oak.version>
     </properties>
 
     <build>
@@ -138,6 +137,11 @@
         <dependency>
             <groupId>org.apache.jackrabbit</groupId>
             <artifactId>oak-core-spi</artifactId>
+            <version>${oak.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.jackrabbit</groupId>
+            <artifactId>oak-shaded-guava</artifactId>
             <version>${oak.version}</version>
         </dependency>
 
